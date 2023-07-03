@@ -2,9 +2,16 @@
 box-sizing: border-box;
 padding: 0;
 margin: 0;
-outline: none;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body{
+    margin: 0;
+    padding: 0;
     background-color: #1fc999;
     background-size: cover;
     overflow-x: hidden;
@@ -17,8 +24,8 @@ body{
     display: block;
     margin: auto;
     padding: 30px;
-    width: 150px;
-    height: 150px;
+    width: 6.25em;
+    height: 6.25em;
 }
 h1{
     text-align: center;
@@ -29,16 +36,16 @@ h1{
 }
 .wheel {
   margin: auto;
-  width: 400px;
-  height: 400px;
+  width: 25em;
+  height: 25em;
   border-radius: 50%;
   background-color: #1fc999;
   margin-top: 50px;
 }
 .image{
   margin: auto;
-  width: 400px;
-  height: 400px;
+  width: 25em;
+  height: 25em;
 }
 .btn{
     display: block;
@@ -54,7 +61,153 @@ h1{
 }
 .arrow{
   display: block;
-  height: 300px;
+  height: 18.75em;
   margin: auto;
   margin-top: -350px;
+}
+
+@media (max-width: 425px) {
+
+    .bingo{
+        display: block;
+        margin: auto;
+        padding: 50px;
+        width: 6em;
+        height: 6em;
+    }
+    h1{
+        text-align: center;
+        margin-top: -70px;
+        font-weight: bold;
+        font-size: 2.75em;
+        color:rgb(245, 245, 245);
+    }
+    .wheel {
+      margin: auto;
+      width: 24.75em;
+      height: 24.75em;
+      border-radius: 50%;
+      background-color: #1fc999;
+      margin-top: 70px;
+    }
+    .image{
+      margin: auto;
+      width: 24.75em;
+      height: 24.75em;
+    }
+    .btn{
+        display: block;
+        margin: auto;
+        margin-top: 80px;
+        font-weight: bold;
+        font-size: 1em;
+        color:rgb(245, 245, 245);
+    }
+    .btn:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+    .arrow{
+      display: block;
+      height: 18.25em;
+      margin: auto;
+      margin-top: -345px;
+    }
+}
+
+@media (max-width: 375px) {
+    .bingo{
+        display: block;
+        margin: auto;
+        padding: 50px;
+        width: 5em;
+        height: 5em;
+    }
+    h1{
+        text-align: center;
+        margin-top: -83px;
+        font-weight: bold;
+        font-size: 2.5em;
+        color:rgb(245, 245, 245);
+    }
+    .wheel {
+      margin: auto;
+      width: 22em;
+      height: 22em;
+      border-radius: 50%;
+      background-color: #1fc999;
+      margin-top: 70px;
+    }
+    .image{
+      margin: auto;
+      width: 22em;
+      height: 22em;
+    }
+    .btn{
+        display: block;
+        margin: auto;
+        margin-top: 80px;
+        font-weight: bold;
+        font-size: 1em;
+        color:rgb(245, 245, 245);
+    }
+    .btn:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+    .arrow{
+      display: block;
+      height: 17em;
+      margin: auto;
+      margin-top: -310px;
+    }
+}
+
+@media (max-width: 320px) {
+    .bingo{
+        display: block;
+        margin: auto;
+        padding: 50px;
+        width: 5em;
+        height: 5em;
+    }
+    h1{
+        text-align: center;
+        margin-top: -83px;
+        font-weight: bold;
+        font-size: 2.5em;
+        color:rgb(245, 245, 245);
+    }
+    .wheel {
+      margin: auto;
+      width: 18em;
+      height: 18em;
+      border-radius: 50%;
+      background-color: #1fc999;
+      margin-top: 70px;
+    }
+    .image{
+      margin: auto;
+      width: 18em;
+      height: 18em;
+    }
+    .btn{
+        display: block;
+        margin: auto;
+        margin-top: 80px;
+        font-weight: bold;
+        font-size: 1em;
+        color:rgb(245, 245, 245);
+    }
+    .btn:hover{
+        background-color: orange;
+        border-color: orange;
+    }
+    .arrow{
+      display: block;
+      height: 13.5em;
+      margin: auto;
+      margin-top: -251px;
+    }
+
 }
