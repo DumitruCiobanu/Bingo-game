@@ -15,10 +15,13 @@ body{
     background-color: #1fc999;
     background-size: cover;
     overflow-x: hidden;
+    height: 100vh;
+    height: 100svh;
+    width: 100%;
 }
 .container{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 .bingo{
     display: block;
@@ -67,7 +70,15 @@ h1{
 }
 
 @media (max-width: 425px) {
-
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #1fc999;
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100svh;
+    width: 100vw;
+}
   .bingo{
     display: block;
     margin: auto;
@@ -84,16 +95,16 @@ h1{
 }
 .wheel {
   margin: auto;
-  width: 22em;
-  height: 22em;
+  width: 21em;
+  height: 21em;
   border-radius: 50%;
   background-color: #1fc999;
   margin-top: 70px;
 }
 .image{
   margin: auto;
-  width: 22em;
-  height: 22em;
+  width: 21em;
+  height: 21em;
 }
 .btn{
     display: block;
@@ -109,63 +120,81 @@ h1{
 }
 .arrow{
   display: block;
-  height: 17em;
+  height: 15.9em;
   margin: auto;
-  margin-top: -310px;
-}
+  margin-top: -295px;
 }
 }
 
+
 @media (max-width: 375px) {
-    .bingo{
-        display: block;
-        margin: auto;
-        padding: 50px;
-        width: 5em;
-        height: 5em;
-    }
-    h1{
-        text-align: center;
-        margin-top: -83px;
-        font-weight: bold;
-        font-size: 2.5em;
-        color:rgb(245, 245, 245);
-    }
-    .wheel {
-      margin: auto;
-      width: 22em;
-      height: 22em;
-      border-radius: 50%;
-      background-color: #1fc999;
-      margin-top: 70px;
-    }
-    .image{
-      margin: auto;
-      width: 22em;
-      height: 22em;
-    }
-    .btn{
-        display: block;
-        margin: auto;
-        margin-top: 80px;
-        font-weight: bold;
-        font-size: 1em;
-        color:rgb(245, 245, 245);
-    }
-    .btn:hover{
-        background-color: orange;
-        border-color: orange;
-    }
-    .arrow{
-      display: block;
-      height: 17em;
-      margin: auto;
-      margin-top: -310px;
-    }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #1fc999;
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100svh;
+    width: 100vw;
+}
+  .bingo{
+    display: block;
+    margin: auto;
+    padding: 50px;
+    width: 5em;
+    height: 5em;
+}
+h1{
+    text-align: center;
+    margin-top: -83px;
+    font-weight: bold;
+    font-size: 2.5em;
+    color:rgb(245, 245, 245);
+}
+.wheel {
+  margin: auto;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  background-color: #1fc999;
+  margin-top: 70px;
+}
+.image{
+  margin: auto;
+  width: 20em;
+  height: 20em;
+}
+.btn{
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 1em;
+    color:rgb(245, 245, 245);
+}
+.btn:hover{
+    background-color: orange;
+    border-color: orange;
+}
+.arrow{
+  display: block;
+  height: 15.2em;
+  margin: auto;
+  margin-top: -282px;
+}
 }
 
 @media (max-width: 320px) {
-    .bingo{
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #1fc999;
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100svh;
+    width: 100vw;
+}  
+  .bingo{
         display: block;
         margin: auto;
         padding: 50px;
